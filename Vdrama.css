@@ -1,0 +1,30 @@
+.shaw{
+    margin: 10px;
+    gap: 10px;
+    background-color: rgb(16, 15, 15);
+    margin: 1rem;
+}
+.drama{
+    background-color: black;
+    color: white;
+    box-shadow: black;
+    border: black;
+    height:40vh ;
+    width: 28vw;
+    transition: all 0.5 linear;
+   /* margin-left:2.5rem ; */
+}
+
+.drama img{
+    margin: top 10px;
+    height:30vh ;
+    width: 28vw;
+   /* gap: 0px 20px 0px 10px; */
+   margin-left: 20px;
+}
+.drama:hover{
+    transform: scale(1.1, 1.1);
+    z-index: 1000;
+    background-color: black;
+    
+}
